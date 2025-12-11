@@ -32,5 +32,13 @@
     "sequelize-cli": "^6.6.3"
   },
   "keywords": [],
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aziz123-code/auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aziz123-code/auth/issues"
+  },
+  "homepage": "https://github.com/aziz123-code/auth#readme"
 }
