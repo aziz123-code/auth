@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Подтверджение регистрации | YTPro Market</title>
+  <link rel="icon" href="../assets/logo.png" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 flex items-center justify-center min-h-screen">
+
+  <div class="w-full max-w-md bg-white rounded-2xl shadow-lg p-8">
+    <div class="text-center mb-6">
+      <h1 class="text-3xl font-bold text-gray-800">Введите код</h1>
+      <p class="text-gray-500 mt-2"> Код отправлен вам на почту 
+        <span id="email-text" class="font-bold"></span>
+      </p>
+    </div>
+
+    <form id="verify-register-form" class="space-y-5">
+     <div>
+    <label class="block text-sm font-medium text-gray-700 mb-1">Код</label>
+
+  <div id="code-inputs" class="flex justify-between gap-2">
+    <input type="text" maxlength="1" class="code-box w-12 h-12 text-center text-xl border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 outline-none" />
+    <input type="text" maxlength="1" class="code-box w-12 h-12 text-center text-xl border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 outline-none" />
+    <input type="text" maxlength="1" class="code-box w-12 h-12 text-center text-xl border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 outline-none" />
+    <input type="text" maxlength="1" class="code-box w-12 h-12 text-center text-xl border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 outline-none" />
+    <input type="text" maxlength="1" class="code-box w-12 h-12 text-center text-xl border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 outline-none" />
+    <input type="text" maxlength="1" class="code-box w-12 h-12 text-center text-xl border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 outline-none" />
+  </div>
+</div>
+
+
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="/script.js"></script>
+</body>
+</html>
